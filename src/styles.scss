@@ -1,0 +1,22 @@
+/* You can add global styles to this file, and also import other style files */
+.main-grid-layout {
+    display: grid;
+    grid-template-areas: 
+      "toolbar toolbar"
+      "navbar students";
+  }
+  
+  .toolbar {
+    grid-area: toolbar;
+    background-color: yellow;
+  }
+  
+  .navbar {
+    grid-area: navbar;
+    background-color: lightgreen;
+  }
+  
+  .students {
+    grid-area: students;
+    background-color: yellow;
+  }
